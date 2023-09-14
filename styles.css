@@ -1,0 +1,102 @@
+/* Styles for container and common styles outside the media query */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Button styles with rounded corners and shadow */
+#roll-button {
+  position: fixed;
+  top: 69%;
+  right: 45%;
+  width: 170px;
+  height: 50px;
+  font-weight: bolder;
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #41c398;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 5px 0 #232931;
+  text-shadow: 1px 0 #232931;
+}
+
+/* Hover effect */
+#roll-button:hover {
+  background-color: #ffffff;
+  color: #46d0a2;
+  text-shadow: 1px 0 #232931;
+}
+
+/* Media query for smaller screens (max-width: 480px) */
+
+@media (min-width: 480px) and (max-width:1200px){
+
+ 
+
+  #roll-button {
+    position: absolute;
+    top: 35%;
+    right: 43%;
+    width: 170px;
+    height: 50px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #41c398;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 0 #232931;
+    text-shadow: 1px 0 #232931;
+
+  }
+
+
+
+}
+
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  text-shadow: 5px 0 #232931;
+
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#footer {
+  margin-top: 10%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
